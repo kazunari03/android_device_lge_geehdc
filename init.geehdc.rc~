@@ -18,7 +18,11 @@ import init.gee-common.rc
 
 on fs
 <<<<<<< HEAD:init.geehdc.rc
-    restorecon_recursive /sns
+    mount_all ./fstab.geehdc
+    restorecon /persist/.bt_nv.bin
+    restorecon /sns/cal/sns.reg
+    restorecon /sns/cal
+    restorecon /sns
 =======
     mount_all ./fstab.geehrc
     restorecon_recursive /sns
