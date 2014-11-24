@@ -18,7 +18,7 @@ include device/lge/gproj-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH := device/lge/geehdc/include
 
-BOARD_KERNEL_CMDLINE := vmalloc=600M console=null lpj=67677 user_debug=31 msm_rtb.filter=0x0 ehci-hcd.park=3 coresight-etm.boot_enable=0 androidboot.hardware=geehdc
+BOARD_KERNEL_CMDLINE := vmalloc=600M console=null lpj=67677 user_debug=31 msm_rtb.filter=0x0 ehci-hcd.park=3 coresight-etm.boot_enable=0 androidboot.hardware=geehdc androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := cyanogenmod_geehdc_defconfig
 
 BOARD_HAVE_BLUETOOTH_QCOM := true
