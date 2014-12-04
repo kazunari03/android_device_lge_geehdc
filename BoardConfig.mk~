@@ -77,6 +77,6 @@ BOARD_SEPOLICY_UNION := \
        tee.te \
        te_macros \
        thermald.te \
-       ueventd.te
+       ueventd.tee
 
 BOARD_HARDWARE_CLASS += device/lge/geehdc/cmhw

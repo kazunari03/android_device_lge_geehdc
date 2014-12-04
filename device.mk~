@@ -32,9 +32,9 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # loki
 PRODUCT_PACKAGES += \
-	loki_tool \
-	loki_tool_static_gproj \
-	recovery-transform.sh
+	loki_patch \
+	loki_flash \
+	loki.sh
 	
 PRODUCT_PACKAGES += \
 	lights.geehdc
