@@ -1,4 +1,18 @@
-allow ueventd sdcard_external:dir search;
-allow ueventd sdcard_external:file r_file_perms;
-allow ueventd wifi_data_file:dir search;
-allow ueventd wifi_data_file:file r_file_perms;
+
+<!-- saved from url=(0130)https://raw.githubusercontent.com/CyanogenMod/android_device_lge_e975/85d138cdd4d56e816751ad94c98fa6cd1689747f/sepolicy/ueventd.te -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">allow ueventd { radio_efs_file wifi_data_file }:dir search;
+allow ueventd { radio_efs_file wifi_data_file }:file r_file_perms;
+</pre><a style="display: none; " id="exifview-absolute-url-convert-proxy" href="https://raw.githubusercontent.com/CyanogenMod/android_device_lge_e975/85d138cdd4d56e816751ad94c98fa6cd1689747f/sepolicy/dummy"></a></body><iframe src="./ueventd_files/commandbox.html" id="vichrome-commandframe" seamless="" style="display: none;"></iframe></html>
