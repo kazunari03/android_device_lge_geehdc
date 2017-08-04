@@ -1,5 +1,3 @@
-## Copyright 2017 - The LineageOS Project
-
 ### Device configuration for L-01E(geehdc)
 <center>
 
