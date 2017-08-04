@@ -19,5 +19,5 @@ Primary Camera  | 13 MP,  autofocus
 Secondary Camera | 1.4 MP
 FM Radio | NO
 
-![Galaxy Tab A 7.0]() </center>
+
 
