@@ -4,7 +4,7 @@
 Component   | Details
 -------:|:-------------------------
 Model   | L-01E
-CPU     | QualcommSnapdragon S4 ProAPQ8064 1.5GHz
+CPU     | QualcommSnapdragon S4 Pro APQ8064 1.5GHz
 GPU     | Adreno225
 Memory  | 2.0GB RAM
 Shipped Android Version | 4.1.2
